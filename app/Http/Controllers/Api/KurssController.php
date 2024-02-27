@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use app\Models\Kurss;
+use App\Models\Kurss;
 class KurssController extends Controller
 {
     public function store(Request $request){

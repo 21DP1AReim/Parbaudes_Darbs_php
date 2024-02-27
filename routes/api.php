@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use app\Http\Controllers\Api\KurssController;
+use App\Http\Controllers\Api\KurssController;
 
 Route::post('/kursses',[KurssController::class,'store']);
 Route::get('/kursses',[KurssController::class,'index']);
