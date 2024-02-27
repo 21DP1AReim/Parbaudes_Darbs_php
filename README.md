@@ -9,7 +9,7 @@ Object relation mapping, programmēšanas veids, kas maina datu bāzes struktūr
 5. Jautājums. Uzraksti Eloquent ORM pieprasījumu modelim User, kur nepieciešams iegūt visus lietotājus kuriem reitings ir lielāks par 4. Lietotāju tabulas struktūra.
 
 public function index(){
-return response()->json(User::where('rating', '>', 4)->get()));
+return response()->json(User::where('rating', '>', 4)->get());
 }
 
 
